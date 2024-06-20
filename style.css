@@ -1,0 +1,29 @@
+*{
+    font-family:monospace;
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+h1{
+    font-size: 80px;
+    font-weight: 900;
+}
+h2{
+    font-size: 70px;
+}
+.btn{
+    padding: 5px 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+}
